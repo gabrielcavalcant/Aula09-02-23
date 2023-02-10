@@ -1,4 +1,4 @@
-console.log("Olá")
+/*console.log("Olá")
 var n = 10
 if(n<8){
     console.log("É menor")
@@ -8,4 +8,4 @@ else{
     console.log("É maior")
     console.log("Entrou no Else")
 }
-console.log("Fim")
+console.log("Fim")*/
