@@ -11,12 +11,17 @@ window.document.write(p.innerText)*/
 
 box.addeventlistener("mouseenter",entrar)
 box.addeventlistener("mouseout",sair)
+box.addeventlistener("click",clicar)
 
 function entrar(){
     var box = window.document.getElementById("click")
-    box.style.background="yellow"
+    box.style.background="blue"
 }
 function sair(){
     var box = window.document.getElementById("click")
     box.style.background="green"
+}
+function clicar(){
+    box.innerText="Cliclou!"
+
 }
